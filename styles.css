@@ -284,6 +284,10 @@ footer {
     text-decoration: none;
     transition: var(--transition);
 }
+.projects {
+    flex:0.40;
+}
+
 
 .footer-link:hover {
     opacity: 0.6;
