@@ -13,13 +13,25 @@ main {
 .team-members {
     display: flex;
     flex-direction: column;
+    flex: 0.60;
+    
 }
+.projects {
+    flex:0.40;
+}
+
 
 .team-member-name {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
-.projects {
-
+.container {
+    display:flex;
+    gap: 20px; 
+}
+.projects, .team-members {
+    padding: 15px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
 
 }
