@@ -4,54 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Website</title>
+    <title>GitReapers - Team Website</title>
+    <link rel="icon" type="image/svg+xml" href="team-logo.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <!-- logo -->
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="team-logo.svg" alt="Git Reapers Logo" class="logo">
+                <h1 class="team-name">GitReapers</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <!-- team name -->
-        <h1>Git Reapers</h1>
-        <div class="container">
+
         <!-- team member names and bios -->
-        <section class="team-members">
-            <h2>Members</h2>
-            <div>
-                <span class="team-member-name">Claire Cyporyn</span>
-                <p>Claire is a senior at Michigan State University majoring in Computer Science with a minor in
-                    Computational Mathematics, Science, and Engineering. Her cognate area of focus is Media and
-                    Information. She currently works at the State of Michigan in the Department of Technology,
-                    Management, and Budget as a student cybersecurity analyst. She enjoys playing guitar, practicing
-                    yoga, and reading.</p>
-            </div>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Team Members</h2>
+                
+                <div class="team-grid">
+                    <div class="member-card">
+                        <h3 class="member-name">Claire Cyporyn</h3>
+                        <p class="member-bio">
+                            Claire is a senior at Michigan State University majoring in Computer Science with a minor in
+                            Computational Mathematics, Science, and Engineering. Her cognate area of focus is Media and
+                            Information. She currently works at the State of Michigan in the Department of Technology,
+                            Management, and Budget as a student cybersecurity analyst. She enjoys playing guitar, practicing
+                            yoga, and reading.
+                        </p>
+                    </div>
 
-            <div>
-                <span class="team-member-name">Tess Gonda</span>
-                <p>DESCRIPTION HERE</p>
-            </div>
+                    <div class="member-card">
+                        <h3 class="member-name">Tess Gonda</h3>
+                        <p class="member-bio">
+                            Tess is a senior at Michigan State University majoring in Computer Science with Media and 
+                            Information focused cognate. They enjoy web design and building projects that combine functionality 
+                            with good user experience. In their free time, Tess enjoys playing RPGs, attending local music shows, 
+                            collecting vintage trinkets, and being around cats.
+                        </p>
+                    </div>
 
-            <div>
-                <span class="team-member-name">Nhi Nguyen</span>
-                <p>Nhi is junior in Computer Science at Michigan State University. Her main interest as of now is in machine learning and software development.</p>
-            </div>
+                    <div class="member-card">
+                        <h3 class="member-name">Nhi Nguyen</h3>
+                        <p class="member-bio">
+                            -
+                        </p>
+                    </div>
 
-            <div>
-                <span class="team-member-name">Zachary Robinson</span>
-                <p>DESCRIPTION HERE</p>
+                    <div class="member-card">
+                        <h3 class="member-name">Zachary Robinson</h3>
+                        <p class="member-bio">
+                            -
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- placeholder section for projects -->
-        <section class="projects">
-            <h2>Projects</h2>
+        <section class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                
+                <div class="projects-placeholder">
+                    <p class="placeholder-text">Projects Coming Soon</p>
+                    <p class="placeholder-subtext">Check back later to see what we're reaping...</p>
+                </div>
+            </div>
         </section>
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">
+                &copy; 2025 GitReapers.
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
