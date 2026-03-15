@@ -72,17 +72,21 @@
         <!-- placeholder section for projects -->
         <section class="projects-section">
             <h2 class="section-title">Projects</h2>
-                <div class="projects-placeholder">
-                    <p class="placeholder-text">Projects Coming Soon</p>
-                    <p class="placeholder-subtext">Check back later to see what we're reaping...</p>
+                <div class="project-card">
+                    <img src="dashboard.png" alt="GitReapers Dashboard" class="project-screenshot" onclick="document.getElementById('lightbox').style.display='flex'">
+                    <a href="https://gitreapers-dashboard.netlify.app/" target="_blank" class="project-link">GitReapers Dashboard</a>
                 </div>
         </section>
     </main>
 
+    <div id="lightbox" onclick="this.style.display='none'">
+        <img src="dashboard.png" alt="GitReapers Dashboard">
+    </div>
+
     <footer>
         <div class="footer-content">
             <p class="footer-text">
-                &copy; 2025 GitReapers.
+                &copy; 2026 GitReapers.
             </p>
         </div>
     </footer>

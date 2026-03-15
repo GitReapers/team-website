@@ -254,7 +254,11 @@ main {
    ======================================== */
 .projects-section {
     padding: var(--spacing-lg) 0;
-    margin-bottom: var(--spacing-lg) ;
+    margin-bottom: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .projects-placeholder {
@@ -267,6 +271,57 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: var(--spacing-xl);
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+}
+
+.project-screenshot {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid var(--color-border);
+    display: block;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.project-screenshot:hover {
+    border-color: var(--color-hover);
+    opacity: 0.85;
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 1px solid var(--color-border);
+}
+
+.project-link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.project-link:hover {
+    color: var(--color-hover);
+    text-decoration: underline;
 }
 
 .placeholder-icon {
